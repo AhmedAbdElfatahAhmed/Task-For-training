@@ -1,0 +1,646 @@
+/* Start styling of Home insurance section */
+
+body
+{
+  background-color: #FCFDFF;
+}
+.Home_insurance .nav-link
+{
+  
+  font-weight: 600;
+  margin-left: 40px;
+  
+}
+
+.Home_insurance .bg-color
+{
+  background-color: rgba(135, 206, 235, 0.3);
+  border-radius:4px;
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+  -ms-border-radius:4px;
+  -o-border-radius:4px;
+}
+
+.Home_insurance .caption
+{
+ padding-top: 150px;
+}
+
+.Home_insurance .caption h1
+{
+  font-size: 4rem;
+}
+.Home_insurance .caption p
+{
+  color: #C8CED3;
+  font-weight:500;
+  font-size: 17px;
+  margin:25px 0px 35px 0px ;
+}
+
+.Home_insurance input
+{
+
+  background-color:rgba(0, 0, 0, 0.1);
+  padding: 25px;
+}
+ 
+
+.Home_insurance button
+{
+  background-color:#3696ED ;
+  color: #fff;
+  font-size: 18px;
+  position: absolute;
+  left:50%;
+  bottom:0px;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 13px 45px;
+}
+
+
+.Home_insurance .Home_image ,.insurers_section img
+{
+ padding-top: 80px;
+ position: relative;
+ transform: translatex(80px);
+ -webkit-transform: translatex(80px);
+ -moz-transform: translatex(80px);
+ -ms-transform: translatex(80px);
+ -o-transform: translatex(80px);
+}
+
+
+/* End styling of Home insurance section */
+
+
+/* Start styling of protection section */
+
+.protection_section
+{
+  padding-top: 80px;
+}
+.protection_section p
+{
+  color: #C8CED3;
+  font-weight:500 ;
+}
+.protection_section .myCard 
+{
+  background-color: #fff;
+  padding: 60px 5px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+
+.protection_section .myCard .circle 
+{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin: auto;
+  position: relative;
+  bottom:25px;
+}
+
+.protection_section .myCard i
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  font-size: 30px;
+}
+
+
+.protection_section .myCard .circleOne
+{
+  background-color: #FDF5E6;
+}
+
+.protection_section .myCard .circleTwo
+{
+  background-color: #E5F9F4;
+}
+
+.protection_section .myCard .circleThree
+{
+  background-color: #EAF0FF;
+}
+
+.protection_section .myCard .iconOne
+{
+  color: #EE9F07;
+}
+
+.protection_section .myCard .iconTwo
+{
+  color: #00C395;
+}
+
+.protection_section .myCard .iconThree
+{
+  color: #336CFF;
+}
+
+.protection_section .myCard h4
+{
+  margin-bottom: 20px;
+}
+
+
+.protection_section .myCard p
+{
+  font-size: 13px;
+  line-height: 2;
+}
+/* End styling of protection section */
+
+
+
+
+/* Start styling of service  section */
+
+
+.service_section
+{
+  padding-top: 80px;
+}
+
+.service_section .caption 
+{
+
+  margin-bottom: 120px;
+}
+
+
+.service_section .caption p
+{
+ 
+  color: #828E9B;
+  font-weight:500 ;
+  margin-top: 20px;
+}
+
+
+
+.service_section .container h2
+{
+  font-size: 3rem;
+}
+
+.service_section .container h3
+{
+ font-size: 2rem;
+}
+
+.service_section .container p
+{
+  color: #C8CED3;
+  margin:20px 0px 30px 0px;
+  line-height: 1.7;
+}
+
+.service_section .myCard
+{
+ background-color: #fff;
+ border-radius: 10px;
+}
+
+.service_section .myCard .circle
+{
+  position: relative;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.service_section .myCard i
+{ 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  font-size: 30px;
+}
+
+.service_section .myCard  .circleOne
+{
+  background-color: #EAF0FF;
+}
+
+
+.service_section .myCard  .circleTwo
+{
+  background-color: #E5F9F4;
+}
+
+.service_section .myCard  .circleThree
+{
+  background-color: #FDF5E6;
+}
+
+.service_section .myCard .iconOne
+{
+  color:#336CFF;
+}
+
+.service_section .myCard .iconTwo
+{
+  color:#00C395 ;
+}
+
+.service_section .myCard .iconThree
+{
+  color: #EE9F07;
+}
+
+
+
+.service_section .myCard_caption h4
+{
+ margin-top: 20px;
+}
+
+.service_section .myCard_caption p
+{
+  font-size: 13px;
+}
+
+
+.service_section img
+{
+  padding-top: 80px;
+  position: relative;
+  transform: translatex(80px);
+  -webkit-transform: translatex(80px);
+  -moz-transform: translatex(80px);
+  -ms-transform: translatex(80px);
+  -o-transform: translatex(80px);
+}
+
+
+/* End styling of service  section */
+
+
+/* Start styling of diagnoses section */
+.diagnoses_section
+{
+  padding-top: 80px;
+}
+
+.diagnoses_section h2
+{
+font-size: 2.7rem;
+margin-bottom: 20px;
+}
+.diagnoses_section .FirstP
+{
+ color: #99A3AE;
+}
+
+.diagnoses_section .secondP
+{
+  color:#637381;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.diagnoses_section button,.insurers_section button
+{
+  background-color:#3696ED ;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 10px 30px;
+  margin-top: 20px;
+}
+
+/* End styling of diagnoses section */
+
+
+/* Start styling of insurers section */
+
+.insurers_section
+{
+  padding: 80px 0px 200px 0px;
+}
+
+.insurers_section h2
+{
+  font-size: 3.2rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+
+.insurers_section p
+{
+  color: #99A3AE;
+}
+
+/* End styling of insurers section */
+
+
+
+
+/* Start styling of sign_up section */
+
+
+.signUp_section
+{
+  background-color: #105BA5;
+  padding: 130px 0px;
+  margin-bottom:120px ;
+}
+
+.signUp_section h4
+{
+ font-size: 2.8rem;
+ line-height: 1.5;
+}
+
+.signUp_section p
+{
+ margin-top:20px ;
+ color: #E3ECF5;
+
+}
+
+
+.btn
+{
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 10px 30px;
+  margin-top: 20px;
+
+}
+
+.signUp_section .First_btn
+{
+  background-color: #1DD8A9;
+}
+
+.signUp_section .second_btn
+{
+ border: 1px solid #E3ECF5;
+ margin-left:30px;
+}
+
+
+/* End styling of sign_up section */
+
+
+/* Start styling of testimonials section */
+
+
+.testimonials_section h3
+{
+  margin-bottom: 80px;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+
+.testimonials_section .myCarousel
+{
+  background-color: #fff;
+  width: 60%;
+  margin: auto;
+  padding: 40px;
+  margin-bottom: 30px;
+  box-shadow: 10px 10px  8px #888888;
+}
+
+.testimonials_section .myCarousel q
+{
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #9DA7B0;
+}
+
+.testimonials_section .myCarousel h5
+{
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+
+.testimonials_section .myCarousel p
+{
+   color: #99A3AE ;
+   font-weight: 500;
+}
+
+.testimonials_section .carousel-control-prev .circle,
+.testimonials_section .carousel-control-next .circle
+{
+  background-color: #105BA5 ;
+  width: 50px;
+  height: 50px;
+  border-radius:50% ;
+  -webkit-border-radius:50% ;
+  -moz-border-radius:50% ;
+  -ms-border-radius:50% ;
+  -o-border-radius:50% ;
+  position: relative;
+}
+
+.testimonials_section .carousel-control-prev .circleOne
+{
+  left: 82%;
+  bottom: 5%;
+}
+
+.testimonials_section .carousel-control-next .circleTwo
+{
+  right: 82%;
+  bottom: 5%;
+}
+
+.testimonials_section .carousel-control-prev i,.testimonials_section .carousel-control-next i
+{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  font-size: 30px;
+  
+}
+
+.carousel-indicators li
+{
+  background-color: #105BA5;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-left: 20px;
+  transform: translateY(-40%);
+  -webkit-transform: translateY(-40%);
+  -moz-transform: translateY(-40%);
+  -ms-transform: translateY(-40%);
+  -o-transform: translateY(-40%);
+}
+
+/* End styling of testimonials section */
+
+
+
+
+/* Start styling of subscribe section */
+
+.subscribe_section
+{
+  margin-top: 100px;
+  background-color: #F5F8FF;
+  position: relative;
+}
+
+.subscribe_section .caption
+{
+  padding-top: 100px;
+}
+
+
+.subscribe_section .caption h2
+{
+  font-weight: 700;
+}
+
+
+.subscribe_section input
+{
+
+  background-color:#fff;
+  padding: 25px;
+}
+ 
+
+.subscribe_section button
+{
+  background-color:#3696ED ;
+  color: #fff;
+  font-size: 18px;
+  position: absolute;
+  right:0;
+  bottom:0;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 13px 45px;
+}
+
+/* End styling of subscribe section */
+
+
+/* Start styling of Footer section */
+
+
+.Footer_section 
+{
+  background-color: #182134;
+  padding: 120px 0 100px 0px;
+  position: relative;
+}
+
+.Footer_section .First_col span,.Footer_section .Second_col span,
+.Footer_section .Third_col span,.Footer_section .Forth_col span
+{
+  display: block;
+  color: #9AB4DF;
+  line-height: 2.5;
+}
+
+.Footer_section .icons
+{
+ color: #fff;
+ font-size: 30px;
+ margin-top: 30px;
+ display: flex;
+ justify-content: space-around;
+}
+
+.Footer_section .forsizing
+{
+ font-size:20px;
+ margin-left: 15px;
+}
+
+.Footer_section .line
+{
+  width: 100%;
+  height: 1.5px;
+  background-color: #9AB4DF;
+  margin-top: 20px;
+}
+.Footer_section .logo span
+{
+  font-size:25px;
+  position: relative;
+  right: 5px;
+  top: 5px;
+}
+
+.Footer_section .lastSpan
+{
+  color: #9AB4DF;
+  font-size: 13px;
+  text-align: end;
+  position: absolute;
+  bottom: 22%;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+/* End styling of Footer section */
