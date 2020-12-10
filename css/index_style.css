@@ -29,7 +29,7 @@ body
 
 .Home_insurance .caption h1
 {
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 .Home_insurance .caption p
 {
@@ -67,14 +67,30 @@ body
 
 .Home_insurance .Home_image ,.insurers_section img
 {
- padding-top: 80px;
- position: relative;
- transform: translatex(80px);
- -webkit-transform: translatex(80px);
- -moz-transform: translatex(80px);
- -ms-transform: translatex(80px);
- -o-transform: translatex(80px);
+  padding-top: 80px;
 }
+
+@media(min-width:767px) and (max-width:991px)
+{
+  .Home_insurance .caption h1
+  {
+    font-size:2.5rem;
+  }
+  .Home_insurance ::placeholder
+  {
+    font-size:8px;
+    font-weight: 900;
+  }
+}
+  @media(min-width:0px) and (max-width:575px)
+  {
+    .Home_insurance .bg-color
+    {
+      background-color:transparent;
+      margin-left: 15px;
+      
+    }
+  }
 
 
 /* End styling of Home insurance section */
@@ -172,6 +188,8 @@ body
   font-size: 13px;
   line-height: 2;
 }
+
+
 /* End styling of protection section */
 
 
@@ -297,14 +315,17 @@ body
 .service_section img
 {
   padding-top: 80px;
-  position: relative;
-  transform: translatex(80px);
-  -webkit-transform: translatex(80px);
-  -moz-transform: translatex(80px);
-  -ms-transform: translatex(80px);
-  -o-transform: translatex(80px);
 }
 
+@media(min-width:0px) and (max-width:991px)
+{
+
+  .service_section .myCard .circle
+  {
+    right: 5%;
+  }
+
+}
 
 /* End styling of service  section */
 
@@ -424,6 +445,19 @@ margin-bottom: 20px;
  margin-left:30px;
 }
 
+@media(min-width:0px) and (max-width:991px)
+{
+
+  .signUp_section h4
+  {
+   font-size: 2rem;
+  }
+  .signUp_section .second_btn
+  {
+   margin-left:0px;
+  }
+}
+
 
 /* End styling of sign_up section */
 
@@ -527,6 +561,16 @@ margin-bottom: 20px;
   -o-transform: translateY(-40%);
 }
 
+@media(min-width:0px) and (max-width:991px)
+{
+  .testimonials_section .myCarousel q
+{
+  font-size: 1rem;
+}
+  
+}
+
+
 /* End styling of testimonials section */
 
 
@@ -578,6 +622,25 @@ margin-bottom: 20px;
   padding: 13px 45px;
 }
 
+
+@media(min-width:767px) and (max-width:991px)
+{
+  .subscribe_section button
+  {
+   position: static;
+   padding: 13px 80px;
+   margin-top: 10px;
+  }
+}
+
+@media(min-width:0px) and (max-width:1125px)
+{
+  .subscribe_section .caption h2
+{
+  font-size: 1.5rem;
+}
+}
+
 /* End styling of subscribe section */
 
 
@@ -610,7 +673,7 @@ margin-bottom: 20px;
 
 .Footer_section .forsizing
 {
- font-size:20px;
+ font-size:18px;
  margin-left: 15px;
 }
 
@@ -643,4 +706,15 @@ margin-bottom: 20px;
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
 }
+
+@media(min-width:0px) and (max-width:991px)
+{
+  .Footer_section .lastSpan
+{
+  bottom: 10%;
+  margin-left: 80px;
+}
+}
+
+
 /* End styling of Footer section */
